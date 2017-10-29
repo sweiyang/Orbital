@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "541194971550",
+    "firebase_url": "https://orbproto-a6eb1.firebaseio.com",
+    "project_id": "orbproto-a6eb1",
+    "storage_bucket": "orbproto-a6eb1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:541194971550:android:5e342d73ee6b54ee",
+        "android_client_info": {
+          "package_name": "wy.orbproto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "541194971550-h78r4fst2nqqr18sknjbn67a9olpm85m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "wy.orbproto",
+            "certificate_hash": "e313c9a13cfc2fd1807e3731fd74fe41fb96efbc"
+          }
+        },
+        {
+          "client_id": "541194971550-kcr5p1nnovdtrb5p175mmvevkt7n8m4s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByFf-4v52hq06py5YyJCJmfN89cFTc3aQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "541194971550-kcr5p1nnovdtrb5p175mmvevkt7n8m4s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

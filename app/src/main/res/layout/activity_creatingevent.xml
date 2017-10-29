@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="wy.orbproto.creatingevent">
+
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/toolbar"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="End:"
+        android:id="@+id/textView"
+        android:textSize="25sp"
+        android:layout_alignTop="@+id/simpleTimePicker"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginTop="29dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start:"
+        android:textSize="25sp"
+        android:layout_marginBottom="24dp"
+        android:layout_alignBottom="@+id/timePicker"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="23dp" />
+
+    <TimePicker
+        android:id="@+id/simpleTimePicker"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:background="@color/white"
+        android:padding="5dp"
+        android:timePickerMode="spinner"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/timePicker"
+        android:layout_alignStart="@+id/timePicker" />
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="14dp"
+        android:background="@color/white"
+        android:padding="5dp"
+        android:timePickerMode="spinner"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="21dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/simpleTimePicker"
+        android:layout_marginTop="25dp"
+        android:text="Venue"
+        android:textSize="25sp"/>
+
+    <EditText
+        android:id="@+id/venue"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignStart="@+id/simpleTimePicker"
+        android:hint="@string/venue" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_alignEnd="@+id/simpleTimePicker"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_below="@+id/venue"
+        android:layout_marginTop="19dp"
+        android:hint="@string/key_details_for_event"
+        android:inputType="textMultiLine"
+        android:lines="8"
+        android:scrollbars="vertical"
+        android:id="@+id/trainingOver"
+        android:gravity="top|left"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/simpleTimePicker"
+        android:layout_alignParentBottom="true"
+        android:text="Create event"
+        android:background="@color/white"
+        android:onClick="createEvent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_alignParentBottom="true"
+        android:text="Cancel"
+        android:onClick="gobacktoCalender"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        />
+    <item
+        android:id="@+id/calender"
+        android:title="Calender"
+        />
+    <item
+        android:id="@+id/attendance"
+        android:title="Attendance"
+        />
+    <item
+        android:id="@+id/roster"
+        android:title="Roster"
+        />
+    <item
+        android:id="@+id/achievemets"
+        android:title="Achievements"
+        />
+    <item
+        android:id="@+id/requests"
+        android:title="Requests"
+        />
+    <item
+        android:id="@+id/sportsgroups"
+        android:title="Sports Groups"
+        />
+    <item
+        android:id="@+id/logout"
+        android:title="logout"
+        />
+    </group>
+
+    <item android:title="Sports Groups">
+        <menu>
+            <item
+                android:id="@+id/blank"
+                android:title=""
+                />
+        </menu>
+    </item>
+</menu>
+

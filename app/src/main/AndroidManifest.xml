@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="wy.orbproto">
+
+    <application
+        android:name="android.support.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/logoo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logoo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Groups" />
+        <activity android:name=".SportsGroup"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
+            android:name=".Options"
+            android:label="@string/title_activity_options"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Calender"
+            android:label="@string/title_activity_calender"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".creatingevent" />
+        <activity android:name=".Invitation" />
+        <activity
+            android:name=".Request"
+            android:label="@string/title_activity_request"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Accept" />
+        <activity
+            android:name=".Rooster"
+            android:label="@string/title_activity_rooster"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Members"
+            android:label="@string/title_activity_members"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Admin"
+            android:label="@string/title_activity_admin"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".test"
+            android:label="@string/title_activity_test"
+            android:theme="@style/AppTheme"></activity>
+    </application>
+
+</manifest>
